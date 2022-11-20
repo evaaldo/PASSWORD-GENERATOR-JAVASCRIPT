@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
     <section class="generator">
@@ -20,28 +21,39 @@
 
         <div class="generator__checkbox">
             <div class="generator__barra">
-                <p class="generator__texto">Tamanho da senha</p>
+                <div class="infos">
+                    <p class="generator__texto">Tamanho da senha</p>
+                    <label class="label-range" for="labelLengthId"></label>
+                </div>
                 <input type="range" id="generator__range" min="6" max="24">
             </div>
 
             <div class="checkbox">
-                <input type="checkbox" id="generator__upercase">
-                <label for="generator__upercase">Letras maiúsculas</label>
+                <label for="generator__upercase">
+                    <input type="checkbox" id="generator__upercase">
+                    <span>Letras maiúsculas</span>
+                </label>
             </div>
     
             <div class="checkbox">
-                <input type="checkbox" id="generator__lowercase">
-                <label for="generator__lowercase">Letras minúsculas</label>
+                <label for="generator__lowercase">
+                    <input type="checkbox" id="generator__lowercase">
+                    <span>Letras minúsculas</span>
+                </label>
             </div>
     
             <div class="checkbox">
-                <input type="checkbox" id="generator__number">
-                <label for="generator__number">Número</label>
+                <label for="generator__number">
+                    <input type="checkbox" id="generator__number">
+                    <span>Número</span>
+                </label>
             </div>
     
             <div class="checkbox">
-                <input type="checkbox" id="generator__symbol">
-                <label for="generator__symbol">Símbolo</label>
+                <label for="generator__symbol">
+                    <input type="checkbox" id="generator__symbol">
+                    <span>Símbolo</span>
+                </label>
             </div>
 
             <div class="strength__container">
@@ -55,7 +67,7 @@
                 </div>
             </div>
 
-            <button class="checkbox__botao">GERAR <i class="fa-solid fa-arrow-right"></i></button>
+            <button id="checkbox__botao">GERAR <i class="fa-solid fa-arrow-right"></i></button>
         </div>
 
 

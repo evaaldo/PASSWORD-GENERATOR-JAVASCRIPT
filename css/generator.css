@@ -31,7 +31,7 @@
     margin-bottom: 1em;
 }
 
-.checkbox__botao {
+#checkbox__botao {
     margin-top: 1.5em;
     padding: 1em;
     background-color: var(--verde);
@@ -56,6 +56,7 @@
 }
 
 .strength__container {
+    margin-top: .6em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,11 +81,21 @@
     background-color: orange;
 }
 
-input[type=range] {
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-range {
+    color: var(--verde);
+    font-size: 1.5em;
+}
+
+input[type="range"] {
     width: 100%;
 }
 
-input[type=text] {
+input[type="text"] {
     width: 340px;
     border-radius: 3px;
     border: none;

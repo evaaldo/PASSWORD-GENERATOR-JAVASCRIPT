@@ -4,6 +4,11 @@
 :root {
     --branco: #fff;
     --preto: #000;
+    --preto-fundo: #0a0a0f;
+    --branco-fonte: #e5e4eb;
+    --verde: #a5ffaf;
+    --verde-escuro: #5cff6f;
+    --cinza-container: #24232a;
 }
 
 * {
@@ -17,6 +22,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--branco-fonte);
+    background-color: var(--preto-fundo);
 }
 
 main {

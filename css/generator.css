@@ -37,12 +37,47 @@
     background-color: var(--verde);
     font-weight: 600;
     cursor: pointer;
-    transition: all .4s;
+    transition: all .2s;
 }
 
 .checkbox__botao:hover {
     color: var(--preto);
     background-color: var(--verde-escuro);
+}
+
+.strength__container {
+    background-color: var(--preto-fundo);
+    padding: 1em;
+}
+
+.strenght__container-texto {
+    font-weight: 400;
+    opacity: .5;
+}
+
+.strength__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.medidor__texto{
+    font-weight: 600;
+    margin-right: .3em;
+}
+
+.strength__container-medidor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.barra {
+    height: 19px;
+    width: 5px;
+    border: 1px solid var(--branco);
+    background-color: orange;
 }
 
 input[type=range] {

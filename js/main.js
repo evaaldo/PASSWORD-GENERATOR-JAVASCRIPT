@@ -34,3 +34,37 @@ btnGerar.addEventListener('click', () => {
     )
 
 })
+
+const generatePassword = (
+
+    hasNumbers,
+    hasSymbols,
+    hasUppercase,
+    hasLowercase,
+    Length
+
+) => {
+
+    const newArray = [
+
+        ...(hasNumbers ? numbers : []),
+        ...(hasSymbols ? symbols : []),
+        ...(hasUppercase ? uppercaseCaracters : []),
+        ...(hasLowercase ? lowercaseCaracters : [])
+
+    ]
+
+    if(newArray.length === 0) return
+
+    let password = ''
+
+    for(let i = 0; i < Length; i++) {
+
+        const randomIndex = Math.floor(Math.random() * newArray.length)
+        password += newArray[randomIndex]
+
+    }
+
+    passInput.value = password
+
+}

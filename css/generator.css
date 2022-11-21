@@ -31,6 +31,10 @@
     margin-bottom: 1em;
 }
 
+#generator__text {
+    color: var(--branco);
+}
+
 #checkbox__botao {
     margin-top: 1.5em;
     padding: 1em;

@@ -37,10 +37,10 @@ btnGerar.addEventListener('click', () => {
 
 const generatePassword = (
 
+    hasLowercase,
+    hasUppercase,
     hasNumbers,
     hasSymbols,
-    hasUppercase,
-    hasLowercase,
     Length
 
 ) => {

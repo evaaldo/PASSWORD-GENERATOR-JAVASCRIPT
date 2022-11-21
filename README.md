@@ -1,5 +1,7 @@
 <h1>Password generator</h1>
 
+<h3><strong>On building - Em construção</strong></h3>
+
 <p><strong>✦ Summary:</strong> This project consists of creating a random password generator, in which its characteristics can be specified, such as: uppercase letters, lowercase letters, symbols and numbers.
 </p>
 

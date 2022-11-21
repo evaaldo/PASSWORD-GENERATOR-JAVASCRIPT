@@ -6,7 +6,7 @@
 <p><strong>✦ How to use:</strong> The site's code is divided in a very organized and intuitive way, and everything is well divided into folders for anyone to access. In addition, all the javascript logic is quite simple, being explained as follows: definition of the variables to be used and the function that generates the password.
 </p>
 
-<p><strong>✦ How to acess:</strong> To access the site, just access the deploy link: https://e-commerce-project-opal.vercel.app/</p>
+<p><strong>✦ How to acess:</strong> To access the site, just access the deploy link: http://password-generator-evaaldo.vercel.app/</p>
 
 <h3>Tradução</h3>
 
@@ -14,6 +14,6 @@
 
 <p><strong>✦ Como usar:</strong> O código do site é dividido de maneira bastante organizada e intuitiva, estando tudo bem dividido em pastas para quem for acessar. Além disso, toda a lógica do javascript é bastante simples, sendo explicada da seguinte forma: definição das variáveis a serem usadas e função que gera a senha.</p>
 
-<p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: https://e-commerce-project-opal.vercel.app/</p>
+<p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: http://password-generator-evaaldo.vercel.app/</p>
 
 <h3>Some project images</h3>

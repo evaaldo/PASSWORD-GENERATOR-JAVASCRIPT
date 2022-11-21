@@ -17,5 +17,7 @@
 <p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: http://password-generator-evaaldo.vercel.app/</p>
 
 <h3>Some project images</h3>
-![password-generator__desktop](https://user-images.githubusercontent.com/110418142/203131286-82d08d99-f4cc-477b-8a30-00c6326edb53.png)
-![password-generator__mobile](https://user-images.githubusercontent.com/110418142/203131291-70a53ffd-b48a-4d23-9e92-011c87960eae.png)
+
+![password-generator__desktop](https://user-images.githubusercontent.com/110418142/203131615-2c191e74-64ed-4b97-9d2c-634ab826d2b5.png)
+![password-generator__mobile](https://user-images.githubusercontent.com/110418142/203131829-f00b1e64-c77c-42c2-94c3-fc4bb47b195d.png)
+

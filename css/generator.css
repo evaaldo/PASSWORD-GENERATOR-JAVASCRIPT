@@ -36,12 +36,12 @@
 }
 
 #checkbox__botao {
-    margin-top: 1.5em;
+    margin-top: 1em;
     padding: 1em;
     background-color: var(--verde);
     font-weight: 600;
     cursor: pointer;
-    transition: all .2s;
+    transition: all .1s;
     border: 1px solid var(--cinza-container);
 }
 
@@ -100,6 +100,32 @@
 .label-range {
     color: var(--verde);
     font-size: 1.5em;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+#checkbox__botao-vermelho {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: var(--vermelho);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .1s;
+    border: 1px solid var(--cinza-container);
+}
+
+#checkbox__botao-vermelho:hover {
+    color: var(--preto);
+    background-color: var(--vermelho-escuro);
+}
+
+#checkbox__botao-vermelho:active {
+    background-color: var(--cinza-container);
+    border: 1px solid var(--vermelho);
+    color: var(--vermelho);
 }
 
 input[type="range"] {

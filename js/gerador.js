@@ -2,6 +2,7 @@ const passInput = document.getElementById('generator__text')
 const lenInput = document.getElementById('generator__range')
 const infoLength = document.querySelector('label[for="labelLengthId"]')
 const btnGerar = document.getElementById('checkbox__botao')
+const btnApagar = document.getElementById('checkbox__botao-vermelho')
 
 const chkLower = document.getElementById('generator__lowercase')
 const chkUpper = document.getElementById('generator__upercase')
@@ -68,3 +69,5 @@ const generatePassword = (
     passInput.value = password
 
 }
+
+btnApagar.addEventListener('click', () => passInput.value = '')

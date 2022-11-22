@@ -128,6 +128,12 @@
     color: var(--vermelho);
 }
 
+input {
+    outline: none;
+    accent-color: var(--verde);
+    border-color: var(--verde);
+}
+
 input[type="range"] {
     width: 100%;
 }

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous"></script>
-    <script src="/js/main.js" defer></script>
+    <script src="/js/gerador.js" defer></script>
+    <script src="/js/forca.js" defer></script>
 </head>
 <body>
     <section class="generator">
@@ -30,28 +31,28 @@
 
             <div class="checkbox">
                 <label for="generator__upercase">
-                    <input type="checkbox" id="generator__upercase">
+                    <input type="checkbox" id="generator__upercase" onclick="verificaChecked()">
                     <span>Letras maiúsculas</span>
                 </label>
             </div>
     
             <div class="checkbox">
                 <label for="generator__lowercase">
-                    <input type="checkbox" id="generator__lowercase">
+                    <input type="checkbox" id="generator__lowercase" onclick="verificaChecked()">
                     <span>Letras minúsculas</span>
                 </label>
             </div>
     
             <div class="checkbox">
                 <label for="generator__number">
-                    <input type="checkbox" id="generator__number">
+                    <input type="checkbox" id="generator__number" onclick="verificaChecked()">
                     <span>Número</span>
                 </label>
             </div>
     
             <div class="checkbox">
                 <label for="generator__symbol">
-                    <input type="checkbox" id="generator__symbol">
+                    <input type="checkbox" id="generator__symbol" onclick="verificaChecked()">
                     <span>Símbolo</span>
                 </label>
             </div>
@@ -59,7 +60,7 @@
             <div class="strength__container">
                 <p class="strenght__container-texto">FORÇA</p>
                 <div class="strength__container-medidor">
-                    <p class="medidor__texto">MÉDIA</p>
+                    <p class="medidor__texto">INDEFINIDO</p>
                     <div class="barra"></div>
                     <div class="barra"></div>
                     <div class="barra"></div>

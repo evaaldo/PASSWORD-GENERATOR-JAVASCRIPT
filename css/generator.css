@@ -128,6 +128,31 @@
     color: var(--vermelho);
 }
 
+.copiar {
+    background-color: var(--preto-fundo);
+    border: none;
+    color: var(--branco);
+    margin-right: 1.5em;
+    cursor: pointer;
+}
+
+.caixa-texto {
+    display: flex;
+    background-color: var(--cinza-container);
+    border-radius: 3px;
+}
+
+.copy-paste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.copied {
+    visibility: hidden;
+}
+
 input {
     outline: none;
     accent-color: var(--verde);

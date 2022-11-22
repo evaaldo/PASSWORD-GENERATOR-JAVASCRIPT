@@ -11,6 +11,9 @@
     --cinza-container: #24232a;
     --vermelho: #EB6440;
     --vermelho-escuro: #e9471b;
+    --vermelho-muito-escuro: #661701;
+    --laranja: orange;
+    --cinza: #f0f0f0ab;
 }
 
 * {

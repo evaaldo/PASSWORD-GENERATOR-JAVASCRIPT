@@ -89,7 +89,7 @@
     height: 19px;
     width: 5px;
     border: 1px solid var(--branco);
-    background-color: orange;
+    background-color: var(--cinza);
 }
 
 .infos {

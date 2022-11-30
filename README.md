@@ -20,6 +20,7 @@
 
 <h3>Some project images</h3>
 
-![password-generator__desktop](https://user-images.githubusercontent.com/110418142/203131615-2c191e74-64ed-4b97-9d2c-634ab826d2b5.png)
-![password-generator__mobile](https://user-images.githubusercontent.com/110418142/203131829-f00b1e64-c77c-42c2-94c3-fc4bb47b195d.png)
+![password-generator__desktop](https://user-images.githubusercontent.com/110418142/204852020-c98a33a6-0173-46d9-bbed-118753c707e6.png)
+![password-generator__mobile](https://user-images.githubusercontent.com/110418142/204852027-0332b7e6-2503-41d7-bc1b-de9f0a19844f.png)
+
 

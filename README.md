@@ -10,6 +10,8 @@
 
 <p><strong>✦ How to acess:</strong> To access the site, just access the deploy link: http://password-generator-evaaldo.vercel.app/</p>
 
+<hr/>
+
 <h3>Tradução</h3>
 
 <p><strong>✦ Resumo:</strong> Esse projeto consiste na criação de um gerador de senhas aleatórias, em que podem ser especificadas as suas características, tais como: letras maiúsculas, letras minúsculas, símbolos e números.</p>
